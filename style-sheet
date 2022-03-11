@@ -1,0 +1,102 @@
+# login.left{
+    /* border:  red solid 2px; */
+    display: inline-block;
+    position :absolute; 
+    left: 60px;
+    top: 20px;
+}
+.left img{
+    width: 136px;
+    
+}.left div{
+    text-align: center;
+    font-size:26px;
+    line-height: 19px;  
+}
+.mid{
+    /* border:  gray solid 2px; */
+    display: block;
+    width: 40%;
+    margin: 29px auto;
+    font-size: bold;
+
+}
+.right{
+    position :absolute; 
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: white solid 2px; */
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size:  15px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 30px 23px;
+}
+.navbar li a:hover, .navbarli a.active{
+    color: rgba(231, 248, 248, 0.753);
+    text-decoration: underline;
+}
+.btn{
+    color: white;
+    margin: 12px 0;
+    padding: 10px 4px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+
+}
+.btn:hover{
+   opacity: 0.5;
+   color: purple;
+   background: white;
+}
+.container{
+    /* border: 2px solid black; */
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+.form-group{
+    width: 100%;
+    margin: 22px 0px;
+    border-bottom: 2px solid purple;
+}
+.form-group input{
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    background: none;
+    width: 75%;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    
+}
+.container h1{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 15px;
+    padding: 13px 0
+}
+.container button{
+    display: block;
+    width:  90px;
+    margin:  auto;
+}
